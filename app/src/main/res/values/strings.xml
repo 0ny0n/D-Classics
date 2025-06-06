@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">DClassicsBook</string>
+    <string name="login_logo_description">D\'Classics Book Logo</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">LOGIN</string>
+
+    <string name="hello_user">Hello, %1$s!</string>
+    <string name="popular_store">Popular Store</string>
+    <string name="featured_books">Featured Books</string>
+    <string name="book_detail_title">Book Detail</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="price_label">Price</string>
+    <string name="address_hint">Ex: Indonesia, North Street</string>
+    <string name="phone_number_hint">Ex: 0811-222-3333</string>
+    <string name="back_button_text">Back</string>
+    <string name="buy_button_text">Buy</string>
+    <string name="confirmation_message">A confirmation email has been sent to your email</string>
+    <string name="ok_button_text">OK</string>
+
+    <string name="books_title">Books</string>
+    <string name="choose_your_books">Choose your Books</string>
+    <string name="non_fiction">Non-Fiction</string>
+    <string name="fiction">Fiction</string>
+    <string name="add_to_cart">Add to Cart</string>
+
+    <string name="stores_title">Stores</string>
+    <string name="near_you">Near You</string>
+    <string name="most_popular">Most Popular</string>
+
+    <string name="menu_icon_description">Menu</string>
+    <string name="nav_arrow_left_description">Previous</string>
+    <string name="nav_arrow_right_description">Next</string>
+    <string name="book_cover_description">Book Cover</string>
+    <string name="store_image_description">Store Image</string>
+
+    <!-- Placeholder content -->
+    <string name="sample_book_title">To Kill A Mockingbird</string>
+    <string name="book_detail">Book Detail</string>
+    <string name="sample_author_name">Harper Lee</string>
+    <string name="sample_store_name">DAUNT BOOKS</string>
+    <string name="sample_price">100$</string>
+    <string name="sample_synopsis_short">A powerful novel set in the racially charged American South...</string>
+    <string name="sample_synopsis_long">To Kill a Mockingbird is a powerful novel set in the racially charged American South during the 1930s. It follows young Scout Finch as she navigates childhood in the town of Maycomb, Alabama. Through the eyes of Scout, we witness her father, Atticus Finch, defend Tom Robinson, a Black man falsely accused of assaulting a white woman. The story explores themes of justice, morality, and the loss of innocence in a deeply divided society.</string>
+
+    <!-- Menu Items -->
+    <string name="action_home">Home</string>
+    <string name="action_books">Books</string>
+    <string name="action_stores">Stores</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="username_too_short">Username must be at least 4 characters</string>
+    <string name="password_too_short">Password must be at least 4 characters</string>
+
+</resources>

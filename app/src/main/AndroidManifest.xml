@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DClassicsBook"
+        tools:targetApi="31">
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.DClassicsBook.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="Home"
+            android:theme="@style/Theme.DClassicsBook.NoActionBar" />
+        <activity
+            android:name=".BookDetailActivity"
+            android:label="@string/book_detail_title"
+            android:theme="@style/Theme.DClassicsBook.NoActionBar" />
+
+        <activity android:name=".AllBooksActivity" />
+        <activity android:name=".StoresActivity" />
+<!--        <activity-->
+<!--            android:name=".BooksListActivity"-->
+<!--            android:label="Books" />-->
+<!--        <activity-->
+<!--            android:name=".StoresActivity"-->
+<!--            android:label="Stores" />-->
+
+    </application>
+
+</manifest>
